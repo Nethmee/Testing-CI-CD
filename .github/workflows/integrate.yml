@@ -11,10 +11,10 @@ jobs:
 
     runs-on: ubuntu-latest #virtual machine for the intgration of the app
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2 #used to get the source code to the current working directory
-      - name: Set up Node js
-        uses: actions/setup-node@v1
+      
+      - uses: actions/checkout@v2 #used to get the source code to the current working directory
+      
+      - uses: actions/setup-node@v1
         with:
           node-version: 12
       - name: Install dependencies
