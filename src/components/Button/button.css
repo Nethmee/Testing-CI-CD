@@ -1,0 +1,22 @@
+.sampleButton{
+ 
+    background-color:#3EAF86;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    background-color:"#3EAF86";
+    margin-top: 40vh;
+    width:10vw;
+    height:10vw; 
+    color:#fff;
+    font-size: 22px;
+    font-weight: bold;
+    box-shadow: 2px 2px 3px #999;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
