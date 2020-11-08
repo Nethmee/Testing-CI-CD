@@ -1,0 +1,14 @@
+name: Node Continuous Integration
+
+
+on:
+  pull_request:
+    branches:[ master ]
+
+
+jobs:
+  test_pull-request:
+    runs-on: ubuntu-latest #virtual machine for the intgration of the app
+    steps:
+      - uses: actions/checkout@v2 #used to get the source code to the current working directory
+      - uses: 
