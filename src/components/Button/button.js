@@ -5,7 +5,7 @@ export default function button({label}) {
   return (
     <div className="sample">
       
-      <div data-testid="button" className="sampleButton">testing snapshot {label} hii</div>
+      <div data-testid="button" className="sampleButton"> {label} </div>
     </div>
   );
 }

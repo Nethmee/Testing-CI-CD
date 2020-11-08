@@ -8,9 +8,9 @@ exports[`it matches the snapshot 2 1`] = `
     className="sampleButton"
     data-testid="button"
   >
-    testing snapshot 
+     
     this is a button
-     hii
+     
   </div>
 </div>
 `;
@@ -23,9 +23,9 @@ exports[`matches snapshot 1`] = `
     className="sampleButton"
     data-testid="button"
   >
-    testing snapshot 
+     
     save me
-     hii
+     
   </div>
 </div>
 `;
